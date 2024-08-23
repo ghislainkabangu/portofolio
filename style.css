@@ -131,10 +131,6 @@ main div {
     transition: 0.5s;
 }
 
-.main_firstBox h1 {
-    font-size: 30px;
-}
-
 .main_firstBox h2 {
     font-size: 35px;
     color: orangered;
@@ -195,7 +191,7 @@ article {
     width: 95%;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 500px;
+    margin-bottom: 100px;
 }
 
 article h3 {
@@ -218,12 +214,13 @@ article h3 {
 
 .html,
 .css,
-.js {
+.js,
+.git,
+.github {
     width: 90%;
     background-color: white;
     border-radius: 60px;
     padding: 5px;
-
 }
 
 .css {
@@ -231,11 +228,19 @@ article h3 {
 }
 
 .js {
-    width: 70%;
+    width: 75%;
 }
 
 .pourcentage {
     float: right;
+}
+
+.git {
+    width: 70%;
+}
+
+.github {
+    width: 65%;
 }
 
 /*********************media************************/
@@ -260,6 +265,10 @@ article h3 {
         text-align: center;
     }
 
+    .mon_Nom {
+        font-size: 60px;
+    }
+
     section {
         flex-wrap: wrap;
     }
@@ -274,5 +283,15 @@ article h3 {
 
     .sectionBox2 {
         order: 1;
+    }
+
+    article {
+        margin-top: 50px;
+    }
+
+    .content_skill {
+        background-color: white;
+        width: 90%;
+        margin: auto;
     }
 }
