@@ -6,7 +6,14 @@ body {
 
 header {
     background-color: black;
-    box-shadow: 0px 0px 3px gray;
+    box-shadow: 0px 0px 2px gray;
+    transition: 0.5s;
+}
+
+.headerJSeffet {
+    background-color: rgb(57, 56, 56);
+    box-shadow: 0px 0px 2px black;
+    transition: 0.5s;
 }
 
 .sideNav {
@@ -71,7 +78,7 @@ nav {
 nav ul li {
     display: inline-block;
     list-style-type: none;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 nav ul li a {
@@ -81,9 +88,15 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: orangered;
     letter-spacing: 2px;
     transition: 0.5s;
+}
+
+.profil {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /*************************main*****************************/
@@ -103,20 +116,36 @@ main div {
 .main_firstBox {
     word-wrap: break-word;
 }
-.main_firstBox p{
+
+.main_firstBox p {
     font-size: large;
 }
-.main_firstBox h1{
+
+.main_firstBox p a {
+    color: black;
+    text-decoration: none;
+}
+
+.main_firstBox p a:hover {
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.main_firstBox h1 {
     font-size: 30px;
 }
-.main_firstBox  h2{
-    font-size: 30px;
+
+.main_firstBox h2 {
+    font-size: 35px;
+    color: orangered;
 }
-.mon_Nom{
-    font-size: 80px;
+
+.mon_Nom {
+    font-size: 100px;
 }
+
 .main_secondBox {
-    height: 500px;
+
     text-align: center;
 }
 
@@ -124,6 +153,89 @@ main div {
     width: 100%;
     height: 100%;
 
+}
+
+/********************section***************************/
+section {
+    margin: auto;
+    width: 95%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section div {
+    flex-basis: 49%;
+    box-sizing: content-box;
+}
+
+.sectionBox1 {
+    text-align: center;
+}
+
+.sectionBox1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.sectionBox2 {
+    text-align: justify;
+}
+
+.sectionBox2 h3 {
+    font-size: 30px
+}
+
+.titleColor {
+    color: orangered;
+}
+
+/***********************************article**********************/
+article {
+    width: 95%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+article h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.content_skill {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.progress {
+    background-color: orangered;
+    border-radius: 60px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.html,
+.css,
+.js {
+    width: 90%;
+    background-color: white;
+    border-radius: 60px;
+    padding: 5px;
+
+}
+
+.css {
+    width: 80%;
+}
+
+.js {
+    width: 70%;
+}
+
+.pourcentage {
+    float: right;
 }
 
 /*********************media************************/
@@ -146,5 +258,21 @@ main div {
 
     .main_firstBox {
         text-align: center;
+    }
+
+    section {
+        flex-wrap: wrap;
+    }
+
+    section div {
+        flex-basis: 100%
+    }
+
+    .sectionBox1 {
+        order: 2;
+    }
+
+    .sectionBox2 {
+        order: 1;
     }
 }

@@ -16,3 +16,11 @@ for (let i = 0; i < sideNav_link.length; i++) {
     sideNave.classList.remove("sideNavjs");
   });
 }
+
+let header = document.getElementsByTagName("header")[0];
+header.addEventListener("mouseover", ()=>{
+  header.classList.add("headerJSeffet")
+})
+header.addEventListener("mouseout",()=>{
+  header.classList.remove("headerJSeffet")
+})
