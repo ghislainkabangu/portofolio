@@ -179,7 +179,7 @@ section div {
 }
 
 .sectionBox2 h3 {
-    font-size: 30px
+    font-size: 30px;
 }
 
 .titleColor {
@@ -192,17 +192,34 @@ article {
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
+
 }
 
 article h3 {
     text-align: center;
     font-size: 30px;
+
 }
 
 .content_skill {
     background-color: white;
     width: 80%;
     margin: auto;
+    animation: animSkill linear;
+    animation-timeline: view()
+}
+
+@keyframes animSkill {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(2);
+        opacity: 3;
+        display: none;
+    }
 }
 
 .progress {
