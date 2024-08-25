@@ -249,11 +249,7 @@ article h3 {
 }
 
 .js {
-    width: 75%;
-}
-
-.pourcentage {
-    float: right;
+    width: 60%;
 }
 
 .git {
@@ -263,7 +259,9 @@ article h3 {
 .github {
     width: 65%;
 }
-
+.pourcentage {
+    float: right;
+}
 /********************aside***************************/
 aside{
     width: 95%;
