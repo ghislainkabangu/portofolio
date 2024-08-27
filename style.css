@@ -412,8 +412,8 @@ footer {
 }
 
 .back {
-   padding: 20px;
-   text-align: right; 
+    padding: 20px;
+    text-align: right;
 }
 
 .back a {
@@ -423,10 +423,12 @@ footer {
     padding: 15px;
     transition: 0.5s;
 }
-.back a:hover{
+
+.back a:hover {
     padding: 20px;
     transition: 0.5s;
 }
+
 .divcopy {
     background-color: orangered;
     padding: 5px;
