@@ -9,6 +9,10 @@ body {
     font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: black;
     box-shadow: 0px 0px 2px gray;
@@ -344,11 +348,13 @@ aside h3 {
     width: 100%;
     height: 200px;
 }
-.splide__slide h4{
+
+.splide__slide h4 {
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: normal;
 }
+
 .splide__slide a {
     text-decoration: none;
     color: white;
@@ -377,12 +383,14 @@ footer {
     text-align: center;
     word-wrap: break-word;
 }
-.footer h1{
+
+.footer h1 {
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
 }
+
 .footer h3 {
     font-size: 30px;
     font-family: "Kanit", sans-serif;
@@ -403,14 +411,30 @@ footer {
     color: orangered;
 }
 
+.back {
+   padding: 20px;
+   text-align: right; 
+}
+
+.back a {
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    padding: 15px;
+    transition: 0.5s;
+}
+.back a:hover{
+    padding: 20px;
+    transition: 0.5s;
+}
 .divcopy {
-   background-color: orangered;
+    background-color: orangered;
     padding: 5px;
 }
 
 .copy {
     font-size: small;
-    text-align: right;
+    text-align: center;
     color: white;
 }
 
