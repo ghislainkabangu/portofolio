@@ -85,12 +85,12 @@
             <img src="gallerie/1000092585.jpg" alt="ma photo">
         </div>
     </main>
-    <!------------------barre--------------->
-    <div class="barre"></div>
+
     <!-------------------------------------section----------------------------------->
     <section id="profil">
         <div class="sectionBox1">
-            <img src="gallerie/1000092585.jpg" alt="ma photo"><!--id="monImage"-->
+            <!--id="monImage"-->
+            <img src="gallerie/ghislain.jpg" alt="ma photo">
         </div>
         <div class="sectionBox2">
             <h3>Mon profil</h3>
@@ -126,8 +126,7 @@
             </ul>
         </div>
     </section>
-    <!--barre-->
-    <div class="barre"></div>
+
     <!-----------------------article-------------------------->
     <article id="competence">
         <h3>Skills (mes compétences, outils)</h3>
@@ -366,7 +365,13 @@
             width: "100%",
             start: 0,
             breakpoints: {
-                750: {
+                1000: {
+                    perPage: 2
+
+                }
+            },
+            breakpoints: {
+                800: {
                     perPage: 1
 
                 }
