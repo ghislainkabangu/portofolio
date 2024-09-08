@@ -22,7 +22,7 @@ header {
 }
 
 .headerJSeffet {
-    background-color: rgb(131, 55, 131);
+    background-color: violet;
     box-shadow: 0px 0px 2px white;
     transition: ease-in-out 0.5s;
 }
@@ -51,7 +51,9 @@ header {
     text-decoration: none;
     color: white;
 }
-
+.sideNav ul li a:hover{
+    color: #ef729d;
+}
 .sideNavjs {
     left: -0%;
     transition: ease-in-out 0.5s;
@@ -109,8 +111,8 @@ nav ul li a:hover {
 
 /********************barre*********************/
 .barre {
-    background-color: rgb(131, 55, 131);
-    padding: 15px;
+    background: linear-gradient(to right, #c97efd, #ef729d);
+    padding: 20px;
 }
 
 /*************************main*****************************/
@@ -150,7 +152,7 @@ main div {
 
 .main_firstBox h2 {
     font-size: 45px;
-    color: rgb(131, 55, 131);
+    color:  #ef729d;
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
@@ -207,12 +209,12 @@ section div {
 .sectionBox2 h3 {
     font-size: 30px;
     font-family: "Kanit", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
 }
 
 .titleColor {
-    color: rgb(131, 55, 131);
+    color: #ef729d;
 }
 
 /***********************************article**********************/
@@ -227,7 +229,7 @@ article h3 {
     text-align: center;
     font-size: 30px;
     font-family: "Kanit", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
 
 }
@@ -243,10 +245,12 @@ article h3 {
 }
 
 .progress {
-    background-color: rgb(131, 55, 131);
+    background-color: white;
+    background: linear-gradient(to right, #c97efd, #ef729d);
     border-radius: 60px;
     padding: 3px;
     margin-top: 20px;
+    transition: ease-in-out 0.5s;
 }
 
 .pourcentage {
@@ -312,7 +316,7 @@ aside h3 {
     text-align: center;
     font-size: 30px;
     font-family: "Kanit", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -339,7 +343,7 @@ aside h3 {
 .splide__slide a {
     text-decoration: none;
     color: white;
-    background-color: rgb(131, 55, 131);
+    background: linear-gradient(to right, #c97efd, #ef729d);
     padding: 5px;
     border-radius: 5px;
     transition: 0.5s;
@@ -347,15 +351,15 @@ aside h3 {
 
 .splide__slide a:hover {
     background-color: inherit;
-    color: rgb(131, 55, 131);
+    color: violet;
     background-color: inherit;
-    border: 1px solid rgb(131, 55, 131);
+    border: 1px solid violet;
     transition: 0.5s;
 }
 
 /************************footer***************/
 footer {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .footer {
@@ -368,8 +372,8 @@ footer {
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
-    color: rgb(131, 55, 131);
+    font-size: 20px;
+    color: #ef729d;
 }
 
 .footer h3 {
@@ -389,8 +393,7 @@ footer {
 }
 
 .footer p a:hover {
-    color: rgb(131, 55, 131);
-    ;
+    color: violet;
 }
 
 .back {
@@ -400,8 +403,7 @@ footer {
 
 .back a {
     color: white;
-    background-color: rgb(131, 55, 131);
-    ;
+    background: linear-gradient(to right, #c97efd, #ef729d);
     text-decoration: none;
     padding: 15px;
     transition: 0.5s;
@@ -409,14 +411,14 @@ footer {
 
 .back a:hover {
     background-color: black;
-    color: rgb(131, 55, 131);
     padding: 20px;
-    border: 2px solid rgb(131, 55, 131);
+    border: 2px solid violet;
     transition: 0.5s;
 }
 
 .divcopy {
-    background-color: rgb(131, 55, 131);
+    background-color: violet;
+    background: linear-gradient(to right, #c97efd, #ef729d);
     padding: 5px;
 }
 
