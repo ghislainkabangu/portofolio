@@ -8,7 +8,7 @@ body {
     font-weight: 200;
     font-style: normal;
     background-color: white;
-    
+
 }
 
 html {
@@ -323,15 +323,18 @@ aside h3 {
     font-weight: 400;
     font-style: normal;
 }
-aside h4 a{
+
+aside h4 a {
     text-decoration: none;
     color: #ef729d;
     transition: 0.5s;
 }
-aside h4 a:hover{
+
+aside h4 a:hover {
     color: #c97efd;
     transition: 0.5s;
 }
+
 /************************footer***************/
 footer {
     margin-top: 100px;
