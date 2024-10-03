@@ -7,8 +7,8 @@ body {
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: normal;
-    background-color: black;
-    color: white;
+    background-color: white;
+    
 }
 
 html {
@@ -144,7 +144,7 @@ main div {
 }
 
 .main_firstBox p a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -266,7 +266,7 @@ article h3 {
 .git,
 .github {
     width: 90%;
-    background-color: black;
+    background-color: white;
     border-radius: 60px;
     padding: 3px;
     cursor: pointer;
@@ -317,49 +317,21 @@ aside {
 
 aside h3 {
     text-align: center;
+    color: #ef729d;
     font-size: 30px;
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
-.splide__slide {
-    box-shadow: 0px 0px 5px gainsboro;
-    padding: 10px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-.splide__slide img {
-    width: 100%;
-    height: 200px;
-}
-
-.splide__slide h4 {
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.splide__slide a {
+aside h4 a{
     text-decoration: none;
-    color: white;
-    background: linear-gradient(to right, #c97efd, #ef729d);
-    padding: 5px;
-    border-radius: 5px;
+    color: #ef729d;
     transition: 0.5s;
 }
-
-.splide__slide a:hover {
-    background-color: inherit;
-    color: violet;
-    background-color: inherit;
-    border: 1px solid violet;
+aside h4 a:hover{
+    color: #c97efd;
     transition: 0.5s;
 }
-
 /************************footer***************/
 footer {
     margin-top: 100px;
@@ -375,7 +347,7 @@ footer {
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 25px;
     color: #ef729d;
 }
 
@@ -391,7 +363,7 @@ footer {
 }
 
 .footer p a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -495,8 +467,9 @@ footer {
     aside {
         width: 80%;
     }
-    footer{
-        margin-top:50px
+
+    footer {
+        margin-top: 50px
     }
 
 }
