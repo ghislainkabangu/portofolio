@@ -310,31 +310,43 @@ article h3 {
 
 /********************aside***************************/
 aside {
-    width: 95%;
     margin: auto;
     margin-top: 100px;
 }
 
 aside h3 {
     text-align: center;
-    color: #ef729d;
+    color: white;
     font-size: 30px;
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
+aside h4{
+    font-weight: 200;
+    word-wrap: break-word;
+}
 aside h4 a {
     text-decoration: none;
-    color: #ef729d;
+    color: white;
     transition: 0.5s;
 }
 
 aside h4 a:hover {
-    color: #c97efd;
+    font-weight: bold;
     transition: 0.5s;
 }
-
+.swiper{
+    width: 100%;
+    background: linear-gradient(to right, #c97efd, #ef729d);
+}
+.swiper-slide {
+    margin-top: 50px;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+}
 /************************footer***************/
 footer {
     margin-top: 100px;
@@ -471,11 +483,6 @@ footer {
     .langage div {
         flex-basis: 40%;
     }
-
-    aside {
-        width: 80%;
-    }
-
     footer {
         margin-top: 50px
     }
