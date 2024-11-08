@@ -3,11 +3,12 @@ body {
     padding: 0 auto;
     background-color: white;
     color: black;
+    background-color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: normal;
-    background-color: white;
 
 }
 
@@ -144,7 +145,7 @@ main div {
 }
 
 .main_firstBox p a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -169,13 +170,12 @@ main div {
 }
 
 .main_secondBox {
-
+    box-sizing: content-box;
     text-align: center;
 }
 
 .main_secondBox img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 
 }
@@ -361,17 +361,32 @@ footer {
     font-style: normal;
 }
 
-.footer p {
-    padding-top: 20px;
+.footer ul{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
 }
-
-.footer p a {
-    color: black;
+.footer ul li{
+    margin-top: 20px;
+    list-style-type: none;
+    flex-basis: 30%;
+    box-shadow: 2px 2px 10px gray;
+}
+.footer ul li a {
+    color: white;
+    background: linear-gradient(to right, #c97efd, #ef729d);
+    display: block;
+    padding: 10px;
     text-decoration: none;
+    transition: 0.5s;
 }
 
-.footer p a:hover {
-    color: violet;
+.footer ul li  a:hover {
+    color: white;
+    background-color: #c97efd;
+    transition: 0.5s;
 }
 
 .back {
@@ -451,16 +466,6 @@ footer {
 
     article {
         margin-top: 50px;
-    }
-
-    .content_skill {
-        width: 95%;
-        margin: auto;
-        flex-wrap: wrap
-    }
-
-    .content_skill .content_skillBox {
-        flex-basis: 100%;
     }
 
     .langage div {
