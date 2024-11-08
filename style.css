@@ -338,7 +338,7 @@ aside h4 a:hover {
 }
 .swiper{
     width: 100%;
-    background: linear-gradient(to right, #c97efd, #ef729d);
+    background: linear-gradient(to right, #ef729d,#c97efd);
 }
 .swiper-slide {
     margin-top: 50px;
