@@ -328,7 +328,7 @@ aside h4{
 }
 aside h4 a {
     text-decoration: none;
-    color: #c97efd;
+    color: black;
     padding: 0px 7px 0px 7px;
     border-radius: 5px;
     background-color: white;
@@ -342,7 +342,6 @@ aside h4 a:hover {
 }
 .swiper{
     width: 100%;
-    background: linear-gradient(to right, #ef729d,#c97efd);
 }
 .swiper-slide {
     margin-top: 50px;
@@ -421,7 +420,6 @@ footer {
 .back a:hover {
     background-color: black;
     padding: 20px;
-    border: 2px solid violet;
     transition: 0.5s;
 }
 
