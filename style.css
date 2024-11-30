@@ -322,10 +322,12 @@ aside h3 {
     font-weight: 400;
     font-style: normal;
 }
-aside h4{
+
+aside h4 {
     font-weight: 200;
     word-wrap: break-word;
 }
+
 aside h4 a {
     text-decoration: none;
     color: black;
@@ -340,9 +342,11 @@ aside h4 a:hover {
     letter-spacing: 2px;
     transition: 0.5s;
 }
-.swiper{
+
+.swiper {
     width: 100%;
 }
+
 .swiper-slide {
     margin-top: 50px;
     padding: 20px;
@@ -350,6 +354,7 @@ aside h4 a:hover {
     text-align: center;
     color: white;
 }
+
 /************************footer***************/
 footer {
     margin-top: 100px;
@@ -376,19 +381,21 @@ footer {
     font-style: normal;
 }
 
-.footer ul{
+.footer ul {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
 }
-.footer ul li{
+
+.footer ul li {
     margin-top: 20px;
     list-style-type: none;
     flex-basis: 30%;
     box-shadow: 2px 2px 10px gray;
 }
+
 .footer ul li a {
     color: white;
     background: linear-gradient(to right, #c97efd, #ef729d);
@@ -398,7 +405,7 @@ footer {
     transition: 0.5s;
 }
 
-.footer ul li  a:hover {
+.footer ul li a:hover {
     color: white;
     background-color: #c97efd;
     transition: 0.5s;
@@ -485,6 +492,7 @@ footer {
     .langage div {
         flex-basis: 40%;
     }
+
     footer {
         margin-top: 50px
     }
