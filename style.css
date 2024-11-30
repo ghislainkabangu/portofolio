@@ -339,7 +339,10 @@ aside h4 a {
 
 aside h4 a:hover {
     font-weight: 300;
-    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    letter-spacing: 1px;
     transition: 0.5s;
 }
 
