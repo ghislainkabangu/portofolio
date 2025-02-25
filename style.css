@@ -1,8 +1,6 @@
 body {
     margin: auto;
     padding: 0 auto;
-    background-color: white;
-    color: black;
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,13 +16,13 @@ html {
 
 header {
     background-color: black;
-    background: linear-gradient(to right, #c97efd, #ef729d);
-    box-shadow: 0px 0px 5px white;
+    /* background: linear-gradient(to right, #c97efd, #ef729d);*/
+    background-color: rgb(0, 174, 255);
     transition: 0.5s;
 }
 
 .headerJSeffet {
-    background: linear-gradient(to right, #c97efd, #ef729d);
+    /* background: linear-gradient(to right, #c97efd, #ef729d);*/
     box-shadow: 0px 0px 2px white;
     transition: ease-in-out 0.5s;
 }
@@ -108,7 +106,7 @@ nav ul li a:hover {
 
 .contactlink {
     background-color: white;
-    color: black;
+    color: rgb(0, 174, 255);
     padding: 5px;
     border-radius: 5px;
 }
@@ -137,6 +135,22 @@ main div {
     word-wrap: break-word;
 }
 
+
+.mon_Nom {
+    font-size: 100px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.main_firstBox h2 {
+    font-size: 45px;
+    color: rgb(0, 174, 255);
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .main_firstBox p {
     font-size: large;
     font-family: "Kanit", sans-serif;
@@ -152,21 +166,6 @@ main div {
 .main_firstBox p a:hover {
     letter-spacing: 1px;
     transition: 0.5s;
-}
-
-.main_firstBox h2 {
-    font-size: 45px;
-    color: #ef729d;
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.mon_Nom {
-    font-size: 100px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal;
 }
 
 .main_secondBox {
@@ -217,7 +216,7 @@ section div {
 }
 
 .titleColor {
-    color: #ef729d;
+    color: rgb(0, 174, 255);
 }
 
 /***********************************article**********************/
@@ -226,16 +225,17 @@ article {
     margin: auto;
     margin-top: 100px;
 
+    h3 {
+        text-align: center;
+        font-size: 30px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
 }
 
-article h3 {
-    text-align: center;
-    font-size: 30px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
-}
 
 .content_skill {
     margin-top: 50px;
@@ -245,47 +245,6 @@ article h3 {
 
 .content_skill .content_skillBox {
     flex-basis: 45%;
-}
-
-.progress {
-    background-color: white;
-    background: linear-gradient(to right, #c97efd, #ef729d);
-    border-radius: 60px;
-    padding: 3px;
-    margin-top: 20px;
-    transition: ease-in-out 0.5s;
-}
-
-.pourcentage {
-    float: right;
-}
-
-.html,
-.css,
-.js,
-.git,
-.github {
-    width: 90%;
-    background-color: white;
-    border-radius: 60px;
-    padding: 3px;
-    cursor: pointer;
-}
-
-.css {
-    width: 80%;
-}
-
-.js {
-    width: 60%;
-}
-
-.git {
-    width: 70%;
-}
-
-.github {
-    width: 70%;
 }
 
 .langage {
@@ -298,10 +257,14 @@ article h3 {
 .langage div {
     flex-basis: 15%;
     margin-top: 20px;
-    box-shadow: 0px 0px 5px gainsboro;
     text-align: center;
     padding: 5px;
     cursor: pointer;
+}
+
+.langage div:hover {
+    transition: 0.5s;
+    background-color: white;
 }
 
 .langage div i {
@@ -312,39 +275,17 @@ article h3 {
 aside {
     margin: auto;
     margin-top: 100px;
+
+    h3 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
 }
 
-aside h3 {
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-aside h4 {
-    font-weight: 200;
-    word-wrap: break-word;
-}
-
-aside h4 a {
-    text-decoration: none;
-    color: black;
-    padding: 0px 7px 0px 7px;
-    border-radius: 5px;
-    background-color: white;
-    transition: 0.5s;
-}
-
-aside h4 a:hover {
-    font-weight: 300;
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-    letter-spacing: 1px;
-    transition: 0.5s;
-}
 
 .swiper {
     width: 100%;
@@ -355,12 +296,61 @@ aside h4 a:hover {
     padding: 20px;
     padding-bottom: 40px;
     text-align: center;
-    color: white;
+    background-color: inherit;
+    box-shadow: 0px 0px 10px gainsboro;
+    height: auto;
+    border-radius: 20px;
+    transition: 0.5s;
+
+    h4 {
+        font-weight: 200;
+        color: white;
+        word-wrap: break-word;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 7px;
+        border-radius: 5px;
+        position: relative;
+        top: 20px;
+        transition: 0.5s;
+    }
+}
+
+.swiper-slide:hover {
+  /*  background-color: rgb(0, 174, 255);*/
+    border: none;
+    transition: 0.5s;
+
+    h4 {
+        font-weight: 200;
+        color: white;
+        word-wrap: break-word;
+    }
+
+    a {
+        color: white;
+        border: 1px solid white;
+        transition: 0.5s;
+    }
+
+    a:hover {
+        padding: 7px;
+        border: none;
+        background-color: inherit;
+        color: rgb(0, 174, 255);
+        border: 1px solid rgb(0, 174, 255);
+        transition: 0.5s;
+    }
 }
 
 /************************footer***************/
 footer {
-    margin-top: 100px;
+    margin-top: 200px;
+    background-color: rgb(0, 174, 255);
 }
 
 .footer {
@@ -373,8 +363,8 @@ footer {
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
-    color: #ef729d;
+    font-size: 50px;
+    color: white;
 }
 
 .footer h3 {
@@ -386,31 +376,29 @@ footer {
 
 .footer ul {
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     list-style-type: none;
 }
 
 .footer ul li {
     margin-top: 20px;
+    display: inline-block;
     list-style-type: none;
-    flex-basis: 30%;
-    box-shadow: 2px 2px 10px gray;
 }
 
 .footer ul li a {
     color: white;
-    background: linear-gradient(to right, #c97efd, #ef729d);
     display: block;
-    padding: 10px;
     text-decoration: none;
+    padding: 0px 5px 0px 5px;
     transition: 0.5s;
+
+    i {
+        font-size: 20px;
+    }
 }
 
 .footer ul li a:hover {
-    color: white;
-    background-color: #c97efd;
+    padding: 0px 15px 0px 15px;
     transition: 0.5s;
 }
 
@@ -420,22 +408,20 @@ footer {
 }
 
 .back a {
-    color: white;
-    background: linear-gradient(to right, #c97efd, #ef729d);
+    color: rgb(0, 174, 255);
+    background-color: white;
     text-decoration: none;
     padding: 15px;
     transition: 0.5s;
 }
 
 .back a:hover {
-    background-color: black;
     padding: 20px;
     transition: 0.5s;
 }
 
 .divcopy {
-    background-color: violet;
-    background: linear-gradient(to right, #c97efd, #ef729d);
+    border-top: 3px solid white;
     padding: 5px;
 }
 
@@ -497,7 +483,7 @@ footer {
     }
 
     footer {
-        margin-top: 50px
+        margin-top: 200px
     }
 
 }
