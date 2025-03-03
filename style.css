@@ -3,9 +3,8 @@ body {
     padding: 0 auto;
     background-color: black;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
+    font-family: "Poppins", serif;
+    font-weight: 500;
     font-style: normal;
 
 }
@@ -15,15 +14,12 @@ html {
 }
 
 header {
-    background-color: black;
-    /* background: linear-gradient(to right, #c97efd, #ef729d);*/
-    background-color: rgb(0, 174, 255);
+    box-shadow: 0px 0px 5px white;
     transition: 0.5s;
 }
 
 .headerJSeffet {
-    /* background: linear-gradient(to right, #c97efd, #ef729d);*/
-    box-shadow: 0px 0px 2px white;
+    box-shadow: 0px 0px 5px white;
     transition: ease-in-out 0.5s;
 }
 
@@ -50,10 +46,6 @@ header {
 .sideNav ul li a {
     text-decoration: none;
     color: white;
-}
-
-.sideNav ul li a:hover {
-    color: #ef729d;
 }
 
 .sideNavjs {
@@ -105,76 +97,66 @@ nav ul li a:hover {
 }
 
 .contactlink {
-    background-color: white;
-    color: rgb(0, 174, 255);
+    border: 1px solid white;
     padding: 5px;
     border-radius: 5px;
 }
 
-/********************barre*********************/
-.barre {
-    background: linear-gradient(to right, #c97efd, #ef729d);
-    padding: 20px;
+.contactlink:hover {
+    background-color: white;
+    border: none;
+    color: black;
 }
 
 /*************************main*****************************/
 main {
     margin: auto;
-    width: 95%;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    div {
+        flex-basis: 100%;
+        box-sizing: content-box;
+    }
 }
 
-main div {
-    flex-basis: 49%;
-    box-sizing: content-box;
-}
 
 .main_firstBox {
     word-wrap: break-word;
+    text-align: center;
+
+    .mon_Nom {
+        font-size: 90px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    a {
+        color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+        padding: 3px 5px 3px 5px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        letter-spacing: 1px;
+        transition: 0.5s;
+    }
 }
 
-
-.mon_Nom {
-    font-size: 100px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.main_firstBox h2 {
-    font-size: 45px;
-    color: rgb(0, 174, 255);
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.main_firstBox p {
-    font-size: large;
-    font-family: "Kanit", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.main_firstBox p a {
-    color: white;
-    text-decoration: none;
-}
-
-.main_firstBox p a:hover {
-    letter-spacing: 1px;
-    transition: 0.5s;
-}
-
+/***********************/
 .main_secondBox {
     box-sizing: content-box;
     text-align: center;
 }
 
 .main_secondBox img {
-    width: 100%;
+    width: 50%;
     object-fit: cover;
 
 }
@@ -210,9 +192,7 @@ section div {
 
 .sectionBox2 h3 {
     font-size: 30px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 
 .titleColor {
@@ -228,9 +208,6 @@ article {
     h3 {
         text-align: center;
         font-size: 30px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 400;
-        font-style: normal;
 
     }
 
@@ -280,9 +257,7 @@ aside {
         text-align: center;
         color: white;
         font-size: 30px;
-        font-family: "Kanit", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+
     }
 }
 
@@ -321,7 +296,6 @@ aside {
 }
 
 .swiper-slide:hover {
-  /*  background-color: rgb(0, 174, 255);*/
     border: none;
     transition: 0.5s;
 
@@ -350,56 +324,51 @@ aside {
 /************************footer***************/
 footer {
     margin-top: 200px;
-    background-color: rgb(0, 174, 255);
 }
 
 .footer {
     padding: 20px;
     text-align: center;
     word-wrap: break-word;
-}
 
-.footer h1 {
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-    color: white;
-}
+    h1 {
 
-.footer h3 {
-    font-size: 30px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.footer ul {
-    text-align: center;
-    list-style-type: none;
-}
-
-.footer ul li {
-    margin-top: 20px;
-    display: inline-block;
-    list-style-type: none;
-}
-
-.footer ul li a {
-    color: white;
-    display: block;
-    text-decoration: none;
-    padding: 0px 5px 0px 5px;
-    transition: 0.5s;
-
-    i {
-        font-size: 20px;
+        font-size: 50px;
+        color: white;
     }
-}
 
-.footer ul li a:hover {
-    padding: 0px 15px 0px 15px;
-    transition: 0.5s;
+    h3 {
+        font-size: 30px;
+
+    }
+
+    ul {
+        text-align: center;
+        list-style-type: none;
+
+        li {
+            margin-top: 20px;
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        a {
+            color: white;
+            display: block;
+            text-decoration: none;
+            padding: 0px 5px 0px 5px;
+            transition: 0.5s;
+
+            i {
+                font-size: 20px;
+            }
+
+            a:hover {
+                padding: 0px 15px 0px 15px;
+                transition: 0.5s;
+            }
+        }
+    }
 }
 
 .back {
