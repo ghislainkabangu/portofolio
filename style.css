@@ -4,7 +4,7 @@ body {
     background-color: black;
     color: white;
     font-family: "Poppins", serif;
-    font-weight: 500;
+    font-weight: 300;
     font-style: normal;
 
 }
@@ -174,7 +174,8 @@ section {
     }
 
     p {
-        text-align: justify
+        text-align: justify;
+        font-weight: 300;
     }
 }
 
@@ -227,6 +228,7 @@ article {
 aside {
     margin: auto;
     margin-top: 100px;
+    width: 95%;
 
     h3 {
         text-align: center;
@@ -234,67 +236,30 @@ aside {
         font-size: 30px;
 
     }
-}
 
+    .asideBox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
 
-.swiper {
-    width: 100%;
-}
+        div {
+            text-align: center;
+            flex-basis: 25%;
+            padding: 5px;
+            margin-top: 10px;
+            box-shadow: 0px 0px 2px gray;
 
-.swiper-slide {
-    margin-top: 50px;
-    padding: 20px;
-    padding-bottom: 40px;
-    text-align: center;
-    background-color: inherit;
-    box-shadow: 0px 0px 10px gainsboro;
-    height: auto;
-    border-radius: 20px;
-    transition: 0.5s;
+            img {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
 
-    h4 {
-        font-weight: 200;
-        color: white;
-        word-wrap: break-word;
-    }
-
-    a {
-        text-decoration: none;
-        color: white;
-        border: 1px solid white;
-        padding: 7px;
-        border-radius: 5px;
-        position: relative;
-        top: 20px;
-        transition: 0.5s;
+            }
+        }
     }
 }
 
-.swiper-slide:hover {
-    border: none;
-    transition: 0.5s;
 
-    h4 {
-        font-weight: 200;
-        color: white;
-        word-wrap: break-word;
-    }
-
-    a {
-        color: white;
-        border: 1px solid white;
-        transition: 0.5s;
-    }
-
-    a:hover {
-        padding: 7px;
-        border: none;
-        background-color: inherit;
-        color: rgb(0, 174, 255);
-        border: 1px solid rgb(0, 174, 255);
-        transition: 0.5s;
-    }
-}
 
 /************************footer***************/
 footer {
@@ -429,8 +394,23 @@ footer {
         flex-basis: 40%;
     }
 
+    aside {
+        margin-top: 50px;
+
+        .asideBox {
+            div {
+                text-align: center;
+                flex-basis: 80%;
+                padding: 5px;
+                margin-top: 10px;
+                box-shadow: 0px 0px 2px gray;
+
+            }
+        }
+    }
+
     footer {
-        margin-top: 200px
+        margin-top: 100px
     }
 
 }
