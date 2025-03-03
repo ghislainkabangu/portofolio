@@ -128,18 +128,18 @@ main {
     text-align: center;
 
     .mon_Nom {
-        font-size: 90px;
+        font-size: 80px;
     }
 
     h2 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     a {
         color: white;
         border: 1px solid white;
         border-radius: 2px;
-        padding: 3px 5px 3px 5px;
+        padding: 10px;
         text-decoration: none;
     }
 
@@ -156,48 +156,28 @@ main {
 }
 
 .main_secondBox img {
-    width: 50%;
+    width: 55%;
     object-fit: cover;
-
 }
 
 /********************section***************************/
 section {
     margin: auto;
     width: 95%;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-section div {
-    flex-basis: 49%;
-    box-sizing: content-box;
-}
-
-.sectionBox1 {
+    margin-top: 100px;
     text-align: center;
+
+    h3 {
+        font-size: 30px;
+        display: none;
+        letter-spacing: 3px;
+    }
+
+    p {
+        text-align: justify
+    }
 }
 
-.sectionBox1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-
-.sectionBox2 {
-    text-align: justify;
-}
-
-.sectionBox2 h3 {
-    font-size: 30px;
-
-}
-
-.titleColor {
-    color: rgb(0, 174, 255);
-}
 
 /***********************************article**********************/
 article {
@@ -213,40 +193,35 @@ article {
 
 }
 
-
-.content_skill {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.content_skill .content_skillBox {
-    flex-basis: 45%;
-}
-
 .langage {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
+    div {
+        flex-basis: 15%;
+        margin-top: 20px;
+        text-align: center;
+        padding: 5px;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px gray;
+        transition: 0.5s;
+    }
+
+    div:hover {
+        padding: 20px;
+        box-shadow: 0px 0px 5px whitesmoke;
+        transition: 0.5s;
+    }
+
+    div i,
+    svg {
+        font-size: 50px;
+    }
 }
 
-.langage div {
-    flex-basis: 15%;
-    margin-top: 20px;
-    text-align: center;
-    padding: 5px;
-    cursor: pointer;
-}
 
-.langage div:hover {
-    transition: 0.5s;
-    background-color: white;
-}
-
-.langage div i {
-    font-size: 100px;
-}
 
 /********************aside***************************/
 aside {
@@ -339,7 +314,6 @@ footer {
 
     h3 {
         font-size: 30px;
-
     }
 
     ul {
@@ -374,19 +348,20 @@ footer {
 .back {
     padding: 20px;
     text-align: right;
-}
 
-.back a {
-    color: rgb(0, 174, 255);
-    background-color: white;
-    text-decoration: none;
-    padding: 15px;
-    transition: 0.5s;
-}
+    a {
+        color: white;
+        border: 1px solid white;
+        text-decoration: none;
+        padding: 15px;
+        transition: 0.5s;
+    }
 
-.back a:hover {
-    padding: 20px;
-    transition: 0.5s;
+    a:hover {
+        padding: 20px;
+        transition: 0.5s;
+    }
+
 }
 
 .divcopy {
@@ -411,37 +386,40 @@ footer {
         display: none;
     }
 
-    main {
-        flex-wrap: wrap;
-    }
-
-    main div {
-        flex-basis: 100%;
-    }
 
     .main_firstBox {
+        word-wrap: break-word;
         text-align: center;
+
+        .mon_Nom {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        a {
+            padding: 5px;
+        }
+
     }
 
-    .mon_Nom {
-        font-size: 60px;
+    .main_secondBox img {
+        width: 80%;
+        object-fit: cover;
+
     }
+
 
     section {
-        flex-wrap: wrap;
+        margin-top: 50px;
+
+        h3 {
+            display: none;
+        }
     }
 
-    section div {
-        flex-basis: 100%
-    }
-
-    .sectionBox1 {
-        order: 2;
-    }
-
-    .sectionBox2 {
-        order: 1;
-    }
 
     article {
         margin-top: 50px;
