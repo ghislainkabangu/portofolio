@@ -398,6 +398,7 @@ footer {
 
     section {
         margin-top: 50px;
+        width: 90%;
 
         h3 {
             display: none;
