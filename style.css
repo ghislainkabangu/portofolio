@@ -1,8 +1,7 @@
 body {
     margin: auto;
     padding: 0 auto;
-    background-color: black;
-    color: white;
+
     font-family: "Poppins", serif;
     font-weight: 300;
     font-style: normal;
@@ -16,6 +15,7 @@ html {
 header {
     box-shadow: 0px 0px 5px white;
     transition: 0.5s;
+    background-color: black;
 }
 
 .headerJSeffet {
@@ -136,8 +136,8 @@ main {
     }
 
     a {
-        color: white;
-        border: 1px solid white;
+        color: black;
+        border: 1px solid black;
         border-radius: 2px;
         padding: 10px;
         text-decoration: none;
@@ -156,7 +156,9 @@ main {
 }
 
 .main_secondBox img {
-    width: 55%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     object-fit: cover;
 }
 
@@ -207,12 +209,13 @@ article {
         padding: 5px;
         cursor: pointer;
         box-shadow: 0px 0px 5px gray;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         transition: 0.5s;
     }
 
     div:hover {
         padding: 20px;
-        box-shadow: 0px 0px 5px whitesmoke;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         transition: 0.5s;
     }
 
@@ -232,7 +235,7 @@ aside {
 
     h3 {
         text-align: center;
-        color: white;
+        color: black;
         font-size: 30px;
 
     }
@@ -249,6 +252,7 @@ aside {
             margin-top: 20px;
             cursor: pointer;
             border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             transition: 0.5s;
 
             img {
@@ -260,12 +264,12 @@ aside {
 
             a {
                 text-decoration: none;
-                color: white;
+                color: black;
                 transition: 0.5s;
             }
 
             a:hover {
-                border: 1px solid white;
+                border: 1px solid black;
                 padding: 5px;
                 transition: 0.5s;
             }
@@ -293,7 +297,7 @@ footer {
     h1 {
 
         font-size: 50px;
-        color: white;
+        color: black;
     }
 
     h3 {
@@ -311,7 +315,7 @@ footer {
         }
 
         a {
-            color: white;
+            color: black;
             display: block;
             text-decoration: none;
             padding: 0px 5px 0px 5px;
@@ -334,8 +338,8 @@ footer {
     text-align: right;
 
     a {
-        color: white;
-        border: 1px solid white;
+        color: black;
+        border: 1px solid black;
         text-decoration: none;
         padding: 15px;
         transition: 0.5s;
@@ -349,14 +353,14 @@ footer {
 }
 
 .divcopy {
-    border-top: 1px solid white;
+    border-top: 1px solid black;
     padding: 5px;
 }
 
 .copy {
     font-size: small;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 /*********************media************************/
@@ -388,13 +392,6 @@ footer {
         }
 
     }
-
-    .main_secondBox img {
-        width: 80%;
-        object-fit: cover;
-
-    }
-
 
     section {
         margin-top: 50px;
